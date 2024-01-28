@@ -1,11 +1,13 @@
 import Dates from "./component/Dates"
 import Notify from "./component/Notify"
 import About from "./component/About"
+import SocialButtons from "./component/SocialButtons"
+import Footer from "./component/Footer"
 
 export default function page() {
     return (
         <>
-            <div className=" h-[100vh] text-black bg-slate-200 ">
+            <div className=" h-[100vh] max-h-screen grid justify-center align-middle items-center overflow-hidden max-w-screen text-black bg-slate-200 ">
 
                 <div className=" h-[70vh] grid  justify-center text-center items-center">
                     <div className="m-10 z-40">
@@ -14,20 +16,30 @@ export default function page() {
                     </div>
                     <div className="  grid gap-4 align-middle justify-center text-center  mt-16" >
                         <h1 className="text-4xl font-bold "> We are coming soon</h1>
-                        <p className="text-sm max-w-[355px] sm:max-w-auto text-wrap">Lorem ipsum dolor sit amet consectetur adipisicing elit  sed eiu sit amet consectetur adipisicing</p>
+                        {/* <p className="text-sm max-w-[355px] sm:max-w-auto text-wrap">Lorem ipsum dolor sit amet consectetur adipisicing elit  sed eiu sit amet consectetur adipisicing</p> */}
                     </div>
-                    <div>
-                        {/* <Dates /> */}
-                        <div className="text-white hover:bg-primary transition ease-in-out hover:scale-150 bg-secondary flex justify-center items-center p-4 px-8 my-20 rounded-full font-bold"> This Site is Under Construction </div>
-                    </div>
-                    <div className=" mt-10 font-bold grid gap-4 justify-center grid-flow-col" >
+                    {/* <div>
+                        <Dates />
+                        <div className=" hover:bg-primary transition ease-in-out hover:scale-150 text-primary flex justify-center items-center p-4 px-8 my-20 rounded-full font-bold"> This Site is Under Construction </div>
+                    </div> */}
+                    <div className="mt-10 grid gap-4">
+                        <p className="text-primary text-sm font-bold">Want to be the first to know when we launch?</p>
+                    <div className=" font-bold grid gap-4 justify-center grid-flow-col" >
                         <Notify/>
-                        <About/>
+                        {/* <button className="bg-white border w-fit text-secondary py-2 px-7 rounded-full ">More Info </button> */}
+                        {/* <About/> */}
+                    </div>
+                    </div>
+                    <div className="mt-[200px] md:mt-[300px]">
+                        <SocialButtons/>
+                    </div>
+                    <div className="mt-5">
+                        <Footer/>
                     </div>
 
                     </div>
 
-                    <div className="absolute opacity-90 w-screen overflow-hidden justify-end align-baseline items-end">
+                    <div className="absolute opacity-90 w-screen overflow-hidden justify-end left-0 bottom-0 align-baseline items-end">
                         <svg className="" xmlns="http://www.w3.org/2000/svg" version="1.1" width="1440" height="1080" preserveAspectRatio="none" viewBox="0 0 1440 1080">
                             <g mask="url(&quot;#SvgjsMask1000&quot;)" fill="none">
                                 <path d="M1488 1080L0 1080 L0 828.87Q17.63 726.5, 120 744.14Q163.08 667.22, 240 710.3Q330.17 680.47, 360 770.64Q442.97 733.61, 480 816.57Q506.19 770.76, 552 796.94Q577.41 750.36, 624 775.77Q642.85 722.62, 696 741.46Q779.38 704.84, 816 788.22Q888.83 741.05, 936 813.88Q970.49 728.37, 1056 762.86Q1109.59 696.44, 1176 750.03Q1276.44 730.47, 1296 830.91Q1304.55 767.46, 1368 776.02Q1417.42 705.44, 1488 754.87z" fill="rgba(226, 62, 87, 1)"></path>

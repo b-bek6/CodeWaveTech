@@ -7,7 +7,7 @@ export default function Notify() {
     <div>
         <button onClick={()=>{
     setHidden(!hidden)
-}} className="bg-fourth shadow-2xl w-fit text-white py-2 px-7 rounded-full ">Notify Me</button>
+}} className="bg-fourth shadow-2xl w-fit font-semibold text-sm text-white py-2 px-4 hover:scale-125 transition ease-in-out delay-150 rounded-3xl ">Notify Me About That!</button>
 
 
 <div  className={`  overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full h-[calc(100%-1rem)] ${hidden?"hidden":"flex"}`}>
