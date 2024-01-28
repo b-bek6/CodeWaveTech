@@ -7,20 +7,23 @@ export default function page() {
         <>
             <div className=" h-[100vh] text-black bg-slate-200 ">
 
-                <div className="mx-auto h-[70vh] grid  justify-center text-center items-center">
+                <div className=" h-[70vh] grid  justify-center text-center items-center">
+                    <div className="m-10 z-40">
                     <div>
-                        <h2 className="container mx-auto text-xl mt-3 ">Code Wave Tech</h2>
+                        <h2 className=" text-xl mt-3 ">Code Wave Tech</h2>
                     </div>
-                    <div className="container mx-auto grid gap-4 align-middle text-center mt-16" >
+                    <div className="  grid gap-4 align-middle justify-center text-center  mt-16" >
                         <h1 className="text-4xl font-bold "> We are coming soon</h1>
-                        <p className="text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit  sed eiu sit amet consectetur adipisicing</p>
+                        <p className="text-sm max-w-[355px] sm:max-w-auto text-wrap">Lorem ipsum dolor sit amet consectetur adipisicing elit  sed eiu sit amet consectetur adipisicing</p>
                     </div>
-                    <div className="container mx-auto">
+                    <div>
                         <Dates />
                     </div>
-                    <div className=" container mx-auto mt-10 font-bold grid gap-4 justify-center z-50 grid-flow-col" >
+                    <div className=" mt-10 font-bold grid gap-4 justify-center grid-flow-col" >
                         <Notify/>
                         <About/>
+                    </div>
+
                     </div>
 
                     <div className="absolute opacity-90 w-screen overflow-hidden justify-end align-baseline items-end">
