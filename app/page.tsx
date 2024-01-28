@@ -7,7 +7,7 @@ import Footer from "./component/Footer"
 export default function page() {
     return (
         <>
-            <div className=" h-[100vh] max-h-screen grid justify-center align-middle items-center overflow-hidden max-w-screen text-black bg-slate-200 ">
+            <div className=" h-[100vh] max-h-screen grid justify-center align-middle items-center overflow-scroll max-w-screen text-black bg-slate-200 ">
 
                 <div className=" h-[70vh] grid  justify-center text-center items-center">
                     <div className="m-10 z-40">
@@ -23,7 +23,7 @@ export default function page() {
                         <div className=" hover:bg-primary transition ease-in-out hover:scale-150 text-primary flex justify-center items-center p-4 px-8 my-20 rounded-full font-bold"> This Site is Under Construction </div>
                     </div> */}
                     <div className="mt-10 grid gap-4">
-                        <p className="text-primary text-sm font-bold">Want to be the first to know when we launch?</p>
+                        <p className="text-fourth text-sm font-bold">Want to be the first to know when we launch?</p>
                     <div className=" font-bold grid gap-4 justify-center grid-flow-col" >
                         <Notify/>
                         {/* <button className="bg-white border w-fit text-secondary py-2 px-7 rounded-full ">More Info </button> */}
