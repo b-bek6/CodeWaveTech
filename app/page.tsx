@@ -7,10 +7,10 @@ import Footer from "./component/Footer"
 export default function page() {
     return (
         <>
-            <div className=" h-[100vh] max-h-screen grid justify-center align-middle items-center overflow-scroll max-w-screen text-black bg-slate-200 ">
+            <div className=" h-[100vh] max-h-screen  md:overflow-scroll overflow-hidden max-w-screen text-black bg-slate-200 ">
 
-                <div className=" h-[70vh] grid  justify-center text-center items-center">
-                    <div className="m-10 z-40">
+                <div className=" h-[80vh] grid  justify-center text-center items-center">
+                    <div className="m-10 z-50">
                     <div>
                         <h2 className=" text-xl mt-3 ">Code Wave Tech</h2>
                     </div>
@@ -30,7 +30,8 @@ export default function page() {
                         {/* <About/> */}
                     </div>
                     </div>
-                    <div className="mt-[200px] md:mt-[300px]">
+                    <div className="absolute bottom-0 left-0 right-0 mb-2">
+                    <div>
                         <SocialButtons/>
                     </div>
                     <div className="mt-5">
@@ -39,7 +40,9 @@ export default function page() {
 
                     </div>
 
-                    <div className="absolute opacity-90 w-screen overflow-hidden justify-end left-0 bottom-0 align-baseline items-end">
+                    </div>
+
+                    <div className="absolute opacity-80 w-screen overflow-hidden justify-end left-0 bottom-0 align-baseline items-end">
                         <svg className="" xmlns="http://www.w3.org/2000/svg" version="1.1" width="1440" height="1080" preserveAspectRatio="none" viewBox="0 0 1440 1080">
                             <g mask="url(&quot;#SvgjsMask1000&quot;)" fill="none">
                                 <path d="M1488 1080L0 1080 L0 828.87Q17.63 726.5, 120 744.14Q163.08 667.22, 240 710.3Q330.17 680.47, 360 770.64Q442.97 733.61, 480 816.57Q506.19 770.76, 552 796.94Q577.41 750.36, 624 775.77Q642.85 722.62, 696 741.46Q779.38 704.84, 816 788.22Q888.83 741.05, 936 813.88Q970.49 728.37, 1056 762.86Q1109.59 696.44, 1176 750.03Q1276.44 730.47, 1296 830.91Q1304.55 767.46, 1368 776.02Q1417.42 705.44, 1488 754.87z" fill="rgba(226, 62, 87, 1)"></path>
