@@ -7,8 +7,7 @@ export default function About() {
     <>
       <button onClick={() => {
         setHidden(!hidden)
-      }} className="bg-white border  text-secondary py-2 rounded-full flex align-middle items-center justify-center gap-2 transition ease-in-out delay-125 hover:gap-4  w-[150px] ">More Info
-        <svg className='h-5 w-5' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25"><path d="m17.5 5.999-.707.707 5.293 5.293H1v1h21.086l-5.294 5.295.707.707L24 12.499l-6.5-6.5z" data-name="Right"/></svg>
+      }} className="bg-white border w-fit text-secondary py-2 px-7 rounded-full ">More Info
       
       </button>
       <div className={`flex`}>
