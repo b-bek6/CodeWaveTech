@@ -17,7 +17,8 @@ export default function page() {
                         <p className="text-sm max-w-[355px] sm:max-w-auto text-wrap">Lorem ipsum dolor sit amet consectetur adipisicing elit  sed eiu sit amet consectetur adipisicing</p>
                     </div>
                     <div>
-                        <Dates />
+                        {/* <Dates /> */}
+                        <div className="text-white hover:bg-primary transition ease-in-out hover:scale-150 bg-secondary flex justify-center items-center p-4 px-8 my-20 rounded-full font-bold"> This Site is Under Construction </div>
                     </div>
                     <div className=" mt-10 font-bold grid gap-4 justify-center grid-flow-col" >
                         <Notify/>
