@@ -8,7 +8,7 @@ export default function page() {
     return (
         <>
             <div className="   md:overflow-scroll h-fit overflow-hidden max-w-screen text-black bg-slate-200 ">
-                <div className="  grid h-[110vh] sm:h-screen grid-rows-3 justify-center text-center items-center">
+                <div className="  grid h-[100vh] sm:h-screen grid-rows-3 justify-center text-center items-center">
                     <div>
                         <h2 className=" text-xl ">Code Wave Tech</h2>
                     </div>
