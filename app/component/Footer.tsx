@@ -1,7 +1,7 @@
 import React from 'react'
-import { MdOutlineEmail } from "react-icons/md";
 import Link from 'next/link';
-import { FaLocationArrow, FaPhone } from 'react-icons/fa6';
+import { FaLocationArrow, FaPhone} from 'react-icons/fa6';
+import { BiLogoGmail } from "react-icons/bi";
 
 export default function Footer() {
   return (
@@ -16,7 +16,7 @@ export default function Footer() {
           <label className='text-xl'>9851008523</label>
         </div>
         <div className='flex gap-2 justify-between md:justify-center items-center'>
-          <Link href={`mailto:info@codewave.com.np?subject=Subscribe&body=Write us a message`}><div className='flex justify-center items-center w-10 h-10  bg-white rounded-full text-primary'><MdOutlineEmail /></div></Link>
+          <Link href={`mailto:info@codewave.com.np?subject=Subscribe&body=Write us a message`}><div className='flex justify-center items-center w-10 h-10  bg-white rounded-full text-primary'><BiLogoGmail /></div></Link>
           <label className='text-xl'>info@codewave.com.np</label>
         </div>
       </div>
